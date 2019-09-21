@@ -43,7 +43,7 @@ export default class WordCard extends Component {
                 <CharacterCard value={c} key={i} 
                 activationHandler={this.activationHandler} 
                 attempt={this.state.attempt}/>)}
-                
+                <p>{this.state.completed? "WINNER":""}</p>
             </div>
         );
     }
