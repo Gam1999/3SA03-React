@@ -25,6 +25,10 @@ body {
   color: #09d3ac;
 }
 
+p {
+  font-size: 30px;
+}
+
 .card{
   display:inline-block;
   text-align: center;
