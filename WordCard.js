@@ -46,6 +46,7 @@ export default class WordCard extends Component {
                 <p>{this.state.completed? "PARIS":""}</p>
                 <p>{this.state.completed? "WINNER":""}</p>
                 <img src="https://www.themarkethink.com/wp-content/uploads/2015/08/escandalosos.jpg" height="200" width="350"></img>
+                <p>Rattawan Putnual 6010110301 </p>
             </div>
         );
     }
